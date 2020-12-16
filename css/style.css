@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: 'Oxygen', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.375;
+    color: #212121;
+}
+img{
+    width: 100px;
+    height: 150px;
+}
+.main{
+    margin:auto;
+    background: url("../img/17580.jpg");
+    width: 800px;
+    height: 1000px;
+}
+.profile-name , .academic,.career,.skills{
+
+    display: inline-block;
+    float: right;
+
+    width: 500px;
+}
+.info-panel{
+    background: rgba(208, 207, 207, 0.32);
+    margin-left: 100px;
+    padding-right: 20px;
+    width: 200px;
+    height: 1000px;
+}
+
+
+p{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info-panel .contact , .professional , .references{
+   padding-left: 30px;
+}
+.info-panel li
+{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.info-panel a{
+    text-decoration: none;
+    color: #212121;
+}
+.info-panel h2{
+    padding-bottom: 10px;
+}
+.contact{
+    padding-top: 20px;
+}
+.employee-image{
+    position: relative;
+    justify-content: center;
+    width: 120px;
+    height: 170px;
+    background: #f0fff0;
+
+    padding-top: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-name a{
+    width: 100%;
+    display:block;
+    margin-top: 5px;
+    text-transform: uppercase;
+   text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #212121;
+}
+.profile-name span
+{
+    background: rgba(208, 207, 207, 0.32);
+    margin: 10px 70px 10px 10px;
+    float:right;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    text-align: center; width: 100px;
+    border-radius: 10px;
+
+
+}
+.profile-name span:hover{
+    background: rgba(208, 207, 207, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(47, 45, 45, 0.32);
+    cursor: pointer;
+}
+.employee-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 38px 0px rgba(47, 45, 45, 0.32);
+}
+.profile-name h1{
+    padding: 10px 20px 0px;
+    font-weight: bold;
+    font-size: 26px ;
+    display: inline-block;
+
+}
+.profile-name div{
+    padding: 10px 22px 10px;
+}
+
+.profile-name h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.skills h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.career h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.academic{
+    height: 152px;
+
+}
+.academic h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.career,.profile, .academic,.skills{
+    padding-left: 20px ;
+    padding-right: 50px;
+}
+.date
+{
+    font-weight: bold;
+    width: 100px;
+    vertical-align: top;
+}
+.career span{
+    font-weight: bold;
+}
+.academic td{
+    width: 120px;
+    height: 25px;
+    vertical-align: top;
+}
+.name{
+    float: right;
+}
+.image{
+    padding-top: 30px;
+}

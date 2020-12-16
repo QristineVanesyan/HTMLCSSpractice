@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: 'Oxygen', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.375;
+    color: #212121;
+}
+.dot-full {
+    height: 8px;
+    width: 8px;
+    background-color: rgba(33, 33, 33, 0.67);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot-empty
+{
+    height: 8px;
+    width: 8px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.main{
+    margin:auto;
+    background: url("../img/17580.jpg");
+    width: 800px;
+    height: 1000px;
+}
+.language-computer-interests
+{
+    display: inline-block;
+    width: 200px;
+    height: 1000px;
+}
+.experience{
+    padding-right: 0px;
+    display: inline-block;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 50px;
+    height: 1000px;
+    float:right;
+}
+.experience li
+{
+    list-style-type: none;
+    padding-bottom: 10px;
+
+}
+.experience h2{
+       padding-top: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+
+}
+.experience span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.experience .company-name{
+    font-size: 10px;
+    text-decoration: none;
+}
+.language-computer-interests{
+    margin-left: 100px;
+}
+.language-computer-interests h2{
+
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+.skills-list h4,.lang-list h4{
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 10px;
+    width: 50px;
+}
+.skills-list li,.lang-list li,.interests-list li{
+    margin:0;
+    padding: 0;
+    text-indent: 0;
+    list-style-type: none;
+    padding-left: 40px;
+}
+.skills-list h2,.lang-list h2,.interests-list h2{
+
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 38px;
+    padding-bottom: 10px;
+}
+.interests-list li{
+    line-height: 2;
+}
+.interests-list i{
+   font-size: 15px;
+    color: #212121;
+    display:inline-block;
+    width: 20px;
+}
+.language-computer-interests
+{
+    background: #e9e9e9;
+}
+
+.but a{
+    width: 100%;
+    display:block;
+    margin-top: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #212121;
+}
+.experience h2{
+    font-weight: bold;
+    display: inline-block;
+}
+.but
+{
+    padding-top: 0px;
+    background: rgba(208, 207, 207, 0.32);
+    margin: 10px 10px 10px 10px;
+    float:right;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    text-align: center; width: 100px;
+    border-radius: 10px;
+}
+.but:hover{
+    background: rgba(208, 207, 207, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(47, 45, 45, 0.32);
+    cursor: pointer;
+}
